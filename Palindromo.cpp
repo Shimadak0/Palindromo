@@ -35,7 +35,7 @@ void verificar_palindromo(palindromo*& pila, string letras) {
 	}
 }
 
-bool verificar_palindromo(st palindromo& letra1, string letras) {
+bool verificar_palindromo(const palindromo& letra1, string letras) {
 	int inicio = 0;
 	int fin = letras.length() - 1;
 
